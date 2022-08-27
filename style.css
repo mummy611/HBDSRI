@@ -1,0 +1,176 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.container{
+   width: auto;
+   height: auto;
+   background:rgb(241, 228, 228);
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+   
+   
+}
+.swiper {
+   width: 80%;
+   height: fit-content;
+
+
+}
+.swiper-slide img{
+   width: 100%;
+   
+}
+.swiper .swiper-button-next,.swiper .swiper-button-prev {
+   color: #fff;
+
+}
+.cont {
+   display: flex;
+   justify-content: center;
+   margin-top: 25px;
+   background: white;
+   
+   flex-wrap: wrap;
+   
+
+}
+.l {
+   margin-left: 15px;
+   margin-top: 15px;
+   font-size: 15px;
+   text-align: center;
+}
+.card {
+   background-color: rgb(247, 245, 245);
+   width: 250px;
+   border-radius: 18px;
+   height: 300px;
+   margin: 20px;
+}
+
+
+.card-img {
+   background-color: rgb(241, 173, 215);
+   height: 300px ;
+   margin-bottom: 30px;
+   background-size: cover;
+   border-radius: 15px 15px 15px 15px;
+}
+
+.car1 {
+  background-image: url('./img/w8.jpeg');
+}
+
+.car2 {
+  background-image: url('./img/c1.jpg');
+}
+
+.car3 {
+  background-image: url('./img/c7.jpg');
+}
+
+.car4 {
+   background-image: url('./img/b.jpg');
+ }
+ .car5 {
+   background-image: url('./img/c4.jpg');
+ }
+ .car6 {
+   background-image: url('./img/s2.jpg');
+ }
+ .car7 {
+   background-image: url('./img/s1.jpg');
+ }
+ .car8 {
+   background-image: url('./img/s3.jpg');
+ }
+ .car9 {
+   background-image: url('./img/c5.jpg');
+ }
+ .car10 {
+   background-image: url('./img/c6.jpg');
+ }
+ .car11 {
+   background-image: url('./img/13.jpeg');
+ }
+ .car12 {
+   background-image: url('./img/m4.jpg');
+ }
+ .car13 {
+  background-image: url('./img/w10.jpeg');
+}
+.car14{
+  background-image: url('./img/w11.jpeg');
+}
+.car15 {
+  background-image: url('./img/w12.jpeg');
+}
+.car16 {
+  background-image: url('./img/w13.jpeg');
+}
+.car17 {
+  background-image: url('./img/w14.jpeg');
+}
+.car18 {
+  background-image: url('./img/w5.jpeg');
+}
+.car19 {
+  background-image: url('./img/w6.jpeg');
+}
+.car20{
+  background-image: url('./img/w7.jpeg');
+}
+.car21 {
+  background-image: url('./img/w8.jpeg');
+}
+.car22 {
+  background-image: url('./img/w9.jpeg');
+}
+.car23 {
+  background-image: url('./img/w15.jpeg');
+}
+.car24 {
+  background-image: url('./img/w16.jpeg');
+}
+.car25 {
+  background-image: url('./img/w17.jpeg');
+}
+.car26 {
+  background-image: url('./img/w18.jpeg');
+}
+.car27 {
+  background-image: url('./img/21.jpeg');
+}
+.car28 {
+  background-image: url('./img/20.jpeg');
+}
+.card h2 {
+  padding: 10px;
+}
+
+.card p{
+  padding: 10px;
+}
+ .card a {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 50px;
+  text-decoration: none;
+ }
+
+ .card:hover{
+  background-color: rgb(19, 18, 18);
+  color: rgb(240, 236, 236);
+  cursor: pointer;
+  transform: scale(1.09);
+  transform: all is ease;
+
+ }

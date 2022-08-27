@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(97, 91, 91);
+ }
+ .contain{
+    width: auto;
+    height: auto;
+   
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8%;
+    
+    
+ }
+ .card {
+    background-color: rgb(236, 234, 234);
+    width: 850px;
+    border-radius: 18px;
+    height: 650px;
+    margin: 20px;
+ }
+ .k{
+    text-align: center;
+    margin-top: 45px;
+    background:rgb(236, 234, 234) ;
+    font-size: 45px;
+    text-decoration: none;
+
+ }
+ .card a {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+   }
+.card a:hover{
+    background-color: rgb(182, 37, 37);
+    color: rgb(255, 248, 248);
+    cursor: pointer;
+    transform: scale(1.09);
+    transform: all is ease;
+    
+    
+  
+   }
+
+   .card:hover .k{
+    
+    color: rgb(182, 37, 37);
+    cursor: pointer;
+    transform: scale(1.00);
+    transform: all is ease;
+  
+   }
+
+ .n{
+    text-align: center;
+    margin-top: 20px;
+    background:rgb(236, 234, 234) ;
+    font-size: 45px;
+    text-decoration: none;
+
+ }
+
+ .card:hover .n{
+    
+    color: rgb(182, 37, 37);
+    cursor: pointer;
+    transform: scale(1.00);
+    transform: all is ease;
+    
+  
+   }
+
+   .card .u {
+    text-align: center;
+    margin-top: 20px;
+    background:rgb(236, 234, 234) ;
+    font-size: 20px;
+    padding: 10%;
+
+   }
